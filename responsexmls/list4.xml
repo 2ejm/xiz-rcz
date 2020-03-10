@@ -1,0 +1,24 @@
+<reply status="200">
+<file host="SIC" id="/srv" />
+<file host="SIC" id="/dev" />
+<file host="SIC" id="/tmp" />
+<file host="SIC" id="/usr" />
+<file host="SIC" id="/vmlinuz" />
+<file host="SIC" id="/sbin" />
+<file host="SIC" id="/boot" />
+<file host="SIC" id="/bin" />
+<file host="SIC" id="/home" />
+<file host="SIC" id="/lost+found" />
+<file host="SIC" id="/etc" />
+<file host="SIC" id="/initrd.img" />
+<file host="SIC" id="/proc" />
+<file host="SIC" id="/root" />
+<file host="SIC" id="/lib64" />
+<file host="SIC" id="/opt" />
+<file host="SIC" id="/run" />
+<file host="SIC" id="/var" />
+<file host="SIC" id="/mnt" />
+<file host="SIC" id="/media" />
+<file host="SIC" id="/sys" />
+<file host="SIC" id="/lib" />
+</reply>

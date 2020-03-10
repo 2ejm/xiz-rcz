@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   This is a invalid xml file on purpose. The damage has to be detected by
+   parser.
+-->
+
+<configuration>
+
+   <resource id="USB:folder">
+      <parameter id="status" unit="" value="DEACTIVATED"/>
+      <parameter id="size" unit="" value="DEACTIVATED"/>
+   </resource>
+
+
+   <resource id="COM1">
+      <parameter id="status" unit="" value="DEACTIVATED"/>
+      <parameter id="status" unit="Bd" value="115200"/>
+   </resource>
+
+
+   <resource id="ZIX">
+      <parameter id="damaged" unit="bool" value="true"/>
+
+      <postprocessor id="XML2PDF" type="mixed" code="xml2pdf.pl">
+         <option id="standard">
+            <name language="English" default="1">Standard</name>
+            <name language="Spanish">Estándar</name>
+            <name language="Portoguese">Padrão</name>
+         </option>
+         <option id="enhanced">
+            <name language="English" default="1">Enhanced</name>
+            <name language="German">Erweitert</name>
+         </option>
+      </postprocessor>
+
+      <interface id="LAN:printer">
+         <postprocessor id="XML2PDF"/>
+      </interface>
+
+      <interface id="LAN:folder">
+         <postprocessor id="XML2PDF"/>
+         <postprocessor id="XML2TXT"/>
+         <postprocessor id="XML2XML"/>
+      </interface>
+
+      <database id="icomMobile" code="dbIcomMobile.pl" authorization="yes">
+         <host value="192.168.100.98:80"/>
+      </database>
+
+      <database id="FORUM" code="dbForum.pl">
+         <host value="192.168.100.98:80"/>
+         <user value="zomro"/>
+         <password value="08154711"/>
+         ...
+         fooo Garbage Garbage Garbage

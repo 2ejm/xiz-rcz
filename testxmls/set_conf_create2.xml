@@ -1,0 +1,6 @@
+<function fid="setConf" node=".//resource[@id='lanFolder']/output[@id='3'][@type='measurement']">
+   <output id="3" type="measurement">
+     <path value="/global/backup_22"/>
+     <format value="PDF enhanced"/>
+   </output>
+</function>

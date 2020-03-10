@@ -1,0 +1,4 @@
+<function fid="delFile">
+  <file host="SIC" id="zix.log" />
+  <file host="DC" id="foo.bar" />
+</function>

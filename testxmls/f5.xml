@@ -1,0 +1,10 @@
+
+<function fid="f4">
+	<arg1 value="v1"/>
+	<arg2 value="v2"/>
+
+	<description>
+		<language name="Deutsch" default="1">bla bla</language>
+		<language name="English">omg omg</language>
+	</description>
+</function>

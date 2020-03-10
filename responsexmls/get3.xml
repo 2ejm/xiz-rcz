@@ -1,0 +1,9 @@
+<reply status="200">
+<message>
+<function fid="getFile">
+<file id="zix.log" />
+</function>
+
+</message>
+
+</reply>

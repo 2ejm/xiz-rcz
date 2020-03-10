@@ -1,0 +1,42 @@
+<function fid="procedure" id="logtest3">
+	<description>
+		<language name="English" default="1">Log something</language>
+		<language name="Deutsch">Logger mal was</language>
+	</description>
+	<function fid="log">
+		<description>
+			<language name="English" default="1">first Log something</language>
+			<language name="Deutsch">Logger erstmal was</language>
+		</description>
+		<category value="Service"/><level value="Warning"/>
+		<timestamp value="2016-11-19 19:31:02.154"/>
+		<source value="DC"/><theme value="Device UV calibration"/>
+		<message>
+			procedure test 1
+		</message>
+	</function>
+	<function fid="log">
+		<description>
+			<language name="English" default="1">second Log same</language>
+			<language name="Deutsch">Logger danach was anners.</language>
+		</description>
+		<category value="Service"/><level value="Warning"/>
+		<timestamp value="2016-11-19 19:32:02.154"/>
+		<source value="DC"/><theme value="Device UV calibration"/>
+		<message>
+			procedure test 1
+		</message>
+	</function>
+	<function fid="log">
+		<description>
+			<language name="English" default="1">third Log same</language>
+			<language name="Deutsch">Logger danach was nochmal anners.</language>
+		</description>
+		<category value="Service"/><level value="Warning"/>
+		<timestamp value="2016-11-19 19:33:02.154"/>
+		<source value="DC"/><theme value="Device UV calibration"/>
+		<message>
+			procedure test 1
+		</message>
+	</function>
+</function>

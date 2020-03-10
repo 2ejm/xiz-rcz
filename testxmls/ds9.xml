@@ -1,0 +1,14 @@
+<function fid="dataSync" iid="000001" type="NUM" car="LP:standard">
+  <measurement iid="000001" format="generic">
+    <general>...</general>
+    <format>...</format>
+    <data>
+      <L>
+        ...
+      </L>
+      <R>
+        ...
+      </R>
+    </data>
+  </measurement>
+</function>

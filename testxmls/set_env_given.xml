@@ -1,0 +1,3 @@
+<function fid="setConf">
+   <parameter id="serialBaudrate" unit="Bd" value="115200" />
+</function>

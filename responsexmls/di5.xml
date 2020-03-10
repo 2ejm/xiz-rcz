@@ -1,0 +1,3 @@
+<reply status="500">
+<message>Couldn't find input processor for type foo</message>
+</reply>

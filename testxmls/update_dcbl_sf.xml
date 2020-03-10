@@ -1,0 +1,10 @@
+<function fid="update" target="DCBL" method="SF">
+   <signature>12436323523967729...”</signature>
+   <restriction>
+      <parameter id="serialnumber" exp=">=9713104710"/>
+      <parameter id="serialnumber" exp="&lt;=9713104720"/>
+   </restriction>
+   <image>
+   aGFsbG8gZGFzIGlzdCBlaW4gVGVzdAo
+   </image>
+</function>

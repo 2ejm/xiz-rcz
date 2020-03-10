@@ -1,0 +1,6 @@
+<function fid="update" target="SICF" method="SF">
+   <image type="file">
+      <content>rootfs_bf2017.swu</content>
+      <signature>aGFsbG8gZGFzIGlzdCBlaW4gVGVzdAo</signature>
+   </image>
+</function>

@@ -1,0 +1,8 @@
+<function fid="log">
+  <category value="cat"/>
+  <level value="Info"/>
+  <timestamp value="2017-01-17 08:37:00"/>
+  <theme value="test"/>
+  <source value="sic"/>
+  <message>Start forum_da.pl</message>
+</function>

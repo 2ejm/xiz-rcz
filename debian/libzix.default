@@ -1,0 +1,10 @@
+# Defaults for googletest initscript
+# sourced by /etc/init.d/googletest
+# installed at /etc/default/googletest by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_OPTS=""

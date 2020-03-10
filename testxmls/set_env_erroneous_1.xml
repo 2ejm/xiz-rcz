@@ -1,0 +1,20 @@
+<function fid="setConf">
+    <resource id="COM1">
+        <parameter id="baudrate" unit="Bd" value="115200" />
+        <parameter id="status" value="ACTIVATED" />
+    </resource>
+    <resource id="COM2">
+        <parameter id="baudrate" unit="Bd" value="115200" />
+    </resource>
+
+    <!-- Set the baud rate of COM2 again. But now don't set the unit. Unit should get empty in config -->
+    <resource id="COM2">
+        <parameter id="baudrate" value="115200" />
+    </resource>
+
+    <!-- And now i forgot the id. This should fail -->
+    <resource id="COM2">
+        <parameter value="115200" />
+    </resource>
+
+</function>

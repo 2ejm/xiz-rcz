@@ -1,0 +1,18 @@
+<function fid="procedure" id="logtest">
+	<function fid="log">
+		<category value="Service"/><level value="Warning"/>
+		<timestamp value="2016-11-19 19:31:02.154"/>
+		<source value="DC"/><theme value="Device UV calibration"/>
+		<message>
+			procedure test 1
+		</message>
+	</function>
+	<function fid="log">
+		<category value="Service"/><level value="Warning"/>
+		<timestamp value="2016-11-19 19:32:02.154"/>
+		<source value="DC"/><theme value="Device UV calibration"/>
+		<message>
+			procedure test 1
+		</message>
+	</function>
+</function>

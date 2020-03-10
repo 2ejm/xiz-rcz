@@ -1,0 +1,3 @@
+<reply status="403">
+<message>Error opening file '/root/this_shouldnt_work': Permission denied</message>
+</reply>

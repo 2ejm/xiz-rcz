@@ -1,0 +1,8 @@
+<function fid="setConf">
+
+    <!-- And now i forgot the value. This should fail -->
+    <resource id="COM2">
+        <parameter id="palimpalim" />
+    </resource>
+
+</function>

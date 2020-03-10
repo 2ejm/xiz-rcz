@@ -1,0 +1,8 @@
+#-----------------------------------------------------------------------------
+
+perl/LibZIX             usr/share/perl5
+perl/demo_processors    usr/share/libzix/examples
+perl/libzix_demo.pl     usr/share/libzix/examples
+perl/sign_request.pl    usr/share/libzix/examples
+
+#---fin-----------------------------------------------------------------------

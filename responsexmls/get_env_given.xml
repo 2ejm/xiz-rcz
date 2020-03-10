@@ -1,0 +1,9 @@
+<reply status="200">
+<resource id="COM1">
+    
+    <parameter id="status" unit="" value="ACTIVATED"/>
+    <parameter id="baudrate" unit="Bd" value="115200"/>
+  </resource>
+<resource id="COM2"><parameter id="palimpalim" unit="" value=""/><parameter id="baudrate" unit="" value="115200"/><parameter id="" unit="" value="115200"/></resource>
+
+</reply>

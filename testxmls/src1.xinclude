@@ -1,0 +1,7 @@
+	<category value="Service"/><level value="Warning"/>
+	<timestamp value="2016-11-19 19:31:02.154"/>
+	<source value="DC"/><theme value="Device UV calibration"/>
+	<message>
+		ADC value swings above accepted limit. Device may output
+		readings that are out of tolerance.
+	</message>

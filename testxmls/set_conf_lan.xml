@@ -1,0 +1,9 @@
+<function fid="setConf" node=".//interface[@id='serial']">
+   <resource id="serialCOM25" enabled="no">
+     <Baudrate value="115200" unit="Bd"/>
+     <NdataBits value="7"/>
+     <NstopBits value="1"/>
+     <Parity value="even"/>
+     <Handshaking value="None"/>
+   </resource>
+</function>

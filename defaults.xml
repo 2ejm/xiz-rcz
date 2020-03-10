@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sic>
+  <general>
+    <directory id="measurements" value="/usr/local/zix/measurements/"/>
+    <directory id="log" value="/var/log/zix/"/>
+    <directory id="logo" value="/usr/local/zix/logo/"/>
+	<directory id="templatesPDF" value="/usr/local/zix/templates/pdf/"/>
+	<directory id="templatesLP" value="/usr/local/zix/templates/lp/"/>
+    <parameter id="serialnumber" value=""/>
+	<parameter id="instrumentCode" value="9713"/>
+    <parameter id="macAddress" value=""/>
+    <parameter id="versionDC" value=""/>
+    <parameter id="versionSIC" value="v1.0.2"/>
+    <parameter id="roomIdentifier" value=""/>
+    <parameter id="language" value="English"/>
+	<parameter id="languagePrintout" value="English"/>
+    <parameter id="timeZone" value="UTC+01:00"/>
+    <synchronizeDateTimePeriod value="5" unit="min"/>
+  </general>
+  <log>
+    <logLevel value="Warning"/>
+    <logBufferSize value="256"/>
+    <file path="/var/log/zix.log"/>
+    <file path="/var/log/lighttpd/error.log"/>
+  </log>
+  <monitor>
+    <file path="/var/log/monitor.log"/>
+  </monitor>
+  <inputProcessing>
+    <inputProcessor id="1" type="conf" code="conf_ip.pl" pattern="_conf.xml">
+      <resource id="lanFolder"/>
+      <resource id="usbFolder"/>
+    </inputProcessor>
+  </inputProcessing>
+  <dataAllocation>
+    <parameter id="daNeighbor" value="yes"/>
+    <parameter id="daNeighborRoom" value="yes"/>
+    <parameter id="daNeighborTime" value="yes"/>
+    <parameter id="daNeighborTimeLimit" value="0" unit="min"/>
+    <parameter id="daDatabaseType" value=""/>
+    <parameter id="daDatabaseHost" value=""/>
+    <parameter id="daDatabaseUser" value=""/>
+	<parameter id="daDatabasePassword" value=""/>
+  </dataAllocation>
+  <postProcessing>
+    <postProcessor id="PDF" code="xml2pdf.pl" ext="pdf">
+      <format id="pdfStandard" tag="_std">
+        <name language="English" default="1">PDF standard</name>
+        <name language="Spanish">PDF estándar</name>
+        <name language="Portoguese">PDF padrão</name>
+      </format>
+      <format id="pdfEnhanced" tag="_enh">
+        <name language="English" default="1">PDF enhanced</name>
+        <name language="Spanish">PDF extendido</name>
+        <name language="German">PDF erweitert</name>
+      </format>
+      <parameter id="pdfLogoFile" value="no logo"/>
+    </postProcessor>
+    <postProcessor id="TXT" code="xml2txt.pl" ext="txt">
+      <format id="v1.6" tag="_v1-6"/>
+    </postProcessor>
+    <postProcessor id="XML" code="xml2xml.pl" ext="xml">
+      <format id="xmlJOIA" tag="_joia"/>
+      <format id="xmlZEISS" tag="_zeiss"/>
+    </postProcessor>
+	<postProcessor id="LP" code="xml2lp.pl" ext="lp">
+      <format id="lpStandard" tag="_std">
+        <name language="English" default="1">Standard</name>
+        <name language="Spanish">Estándar</name>
+        <name language="Portoguese">Padrão</name>
+      </format>
+	  <format id="lpEnhanced" tag="_enh">
+        <name language="English" default="1">Enhanced</name>
+        <name language="Spanish">Extendido</name>
+        <name language="German">Erweitert</name>
+      </format>
+    </postProcessor>
+  </postProcessing>
+  <interfaces>
+	<interface id="localPrinter">
+	  <resource id="localPrinter">
+	    <parameter id="printerHeader" value=""/>
+	    <parameter id="printerNotes" value=""/>
+	    <parameter id="printerFooter" value=""/>
+		<parameter id="printerTemplateDefault" value=""/>
+	    <postProcessor id="LP"/>
+	  </resource>
+	</interface>
+    <interface id="lan">
+      <parameter id="lanConfigurationMode" value="DHCP"/>
+      <parameter id="lanIPaddress" value=""/>
+      <parameter id="lanSubnetMask" value=""/>
+      <parameter id="lanDNS" value=""/>
+      <parameter id="lanDNS1" value=""/>
+      <parameter id="lanDNS2" value=""/>
+      <parameter id="lanGateway" value=""/>
+      <parameter id="lanTimeserver" value=""/>
+	  <resource id="lanTime">
+		<parameter id="lanTime" value="disabled"/>
+		<parameter id="lanTimeServer" value=""/>
+	  </resource>
+      <resource id="lanFolder">
+        <parameter id="lanFolder" value="disabled"/>
+        <parameter id="lanFolderShare" value=""/>
+        <parameter id="lanFolderUser" value=""/>
+		<parameter id="lanFolderPassword" value=""/>
+        <parameter id="lanFolderInputPath" value=""/>
+        <parameter id="lanFolderInputTimer" value="20.0" unit="s"/>
+        <parameter id="lanFolderOutput1Path" value=""/>
+        <parameter id="lanFolderOutput1Format" value=""/>
+        <parameter id="lanFolderOutput2Path" value=""/>
+        <parameter id="lanFolderOutput2Format" value=""/>
+        <input id="1">
+          <path valueRef="lanFolderInputPath"/>
+          <timer valueRef="lanFolderInputTimer"/>
+        </input>
+        <input id="100" type="conf">
+          <path value="/RDx/conf"/>
+        </input>
+        <output id="1" type="measurement">
+          <path valueRef="lanFolderOutput1Path"/>
+          <format valueRef="lanFolderOutput1Format"/>
+        </output>
+        <output id="2" type="measurement">
+          <path valueRef="lanFolderOutput2Path"/>
+          <format valueRef="lanFolderOutput2Format"/>
+        </output>
+        <output id="100" type="conf">
+          <path value="/RDx/conf"/>
+        </output>
+        <output id="101" type="log">
+          <path value="/RDx/log"/>
+        </output>
+        <output id="102" type="monitor">
+          <path value="/RDx/log"/>
+        </output>
+        <postProcessor id="PDF"/>
+        <postProcessor id="TXT"/>
+        <postProcessor id="XML"/>
+      </resource>
+      <resource id="lanSocket">
+        <parameter id="lanSocket" value="disabled"/>
+        <parameter id="lanSocketPeer" value=""/>
+        <parameter id="lanSocketUser" value=""/>
+		<parameter id="lanSocketPassword" value=""/>
+        <parameter id="lanSocketFormat" value=""/>
+        <parameter id="lanSocketProtocol" value=""/>
+        <postProcessor id="XML"/>
+        <postProcessor id="TXT"/>
+      </resource>
+      <resource id="lanPrinter">
+        <parameter id="lanPrinter" value="disabled"/>
+        <parameter id="lanPrinterName" value=""/>
+		<parameter id="lanPrinterTemplateDefault" value=""/>
+        <postProcessor id="PDF"/>
+      </resource>
+      <resource id="lanWebservice">
+        <parameter id="lanWebservice" value="disabled"/>
+        <parameter id="lanWebservicePort" value=""/>
+        <parameter id="lanWebserviceUser" value=""/>
+		<parameter id="lanWebservicePassword" value=""/>
+      </resource>
+    </interface>
+    <interface id="usb">
+      <resource id="usbFolder">
+        <parameter id="usbFolder" value="disabled"/>
+        <parameter id="usbFolderOutput1Path" value=""/>
+        <parameter id="usbFolderOutput1Format" value=""/>
+        <parameter id="usbFolderOutput2Path" value=""/>
+        <parameter id="usbFolderOutput2Format" value=""/>
+        <input id="conf">
+          <path value="/RDx/conf"/>
+        </input>
+        <input id="update">
+          <path value="/RDx/update"/>
+        </input>
+        <output id="1" type="measurement">
+          <path valueRef="usbFolderOutput1Path"/>
+          <format valueRef="usbFolderOutput1Format"/>
+        </output>
+        <output id="2" type="measurement">
+          <path valueRef="usbFolderOutput2Path"/>
+          <format valueRef="usbFolderOutput2Format"/>
+        </output>
+        <output id="log">
+          <path value="/RDx/log"/>
+        </output>
+        <output id="conf">
+          <path value="/RDx/conf/"/>
+        </output>
+		<output id="monitor">
+          <path value="/RDx/log"/>
+        </output>
+        <postProcessor id="PDF"/>
+        <postProcessor id="TXT"/>
+        <postProcessor id="XML"/>
+      </resource>
+    </interface>
+    <interface id="serial">
+      <resource id="serial">
+        <parameter id="serial" value="disabled"/>
+        <parameter id="serialBaudrate" value="9600" unit="Bd"/>
+        <parameter id="serialNdataBits" value="8"/>
+        <parameter id="serialNstopBits" value="2"/>
+        <parameter id="serialParity" value="none"/>
+        <parameter id="serialHandshaking" value="none"/>
+        <parameter id="serialFormat" value="v1.6"/>
+        <parameter id="serialProtocol" value="Listener"/>
+        <Baudrate valueRef="serialBaudrate"/>
+        <NdataBits valueRef="serialNdataBits"/>
+        <NstopBits valueRef="serialNstopBits"/>
+        <Parity valueRef="serialParity"/>
+        <Handshaking valueRef="serialHandshaking"/>
+        <Format valueRef="serialFormat"/>
+        <Protocol valueRef="serialProtocol"/>
+        <postProcessor id="TXT"/>
+        <protocol id="Listener" code="serialListener.pl"/>
+        <protocol id="Acknowledge" code="serialAcknowledge.pl" name="ACK lines">
+          <scheme id="ackLines" name="ACK lines">
+            <name language="English" default="1">ACK lines</name>
+            <name language="German">ACK Zeilen</name>
+          </scheme>
+          <scheme id="ackTransmission" name="ACK transmission">
+            <name language="English" default="1">ACK transmission</name>
+            <name language="German">ACK Übertragung</name>
+          </scheme>
+        </protocol>
+      </resource>
+      <resource id="serialCOM2">
+        <Baudrate value="115200"/>
+        <NdataBits value="8"/>
+        <NstopBits value="1"/>
+        <Parity value="none"/>
+        <Handshaking value="none"/>
+      </resource>
+    </interface>
+  </interfaces>
+</sic>

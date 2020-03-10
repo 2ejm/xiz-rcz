@@ -1,0 +1,24 @@
+<function fid="procedure" id="logtest2">
+	<function fid="log">
+		<category value="Service"/><level value="Warning"/>
+		<timestamp value="2016-11-19 19:31:02.154"/>
+		<source value="DC"/><theme value="Device UV calibration"/>
+		<message>
+			procedure test 1
+		</message>
+	</function>
+	<function fid="log">
+		<category value="Service"/><level value="Warning"/>
+		<timestamp value="2016-11-19 19:32:02.154"/>
+		<source value="DC"/><theme value="Device UV calibration"/>
+		<message>
+			procedure test 1
+		</message>
+	</function>
+        <restriction>
+          <parameter id="instrumentCode"   exp="=9714"/>
+          <parameter id="serialnumber"     exp=">9714120000"/>
+          <parameter id="versionDC_major"  exp=">=2"/>
+          <parameter id="versionSIC_major" exp=">=1"/>
+        </restriction>
+</function>

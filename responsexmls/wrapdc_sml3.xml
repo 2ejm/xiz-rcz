@@ -1,0 +1,15 @@
+<reply status="200">
+<message>
+<function fid="setMeasurementsList">
+<measurement id="GBh 5004767-54">
+                <patient id="Mustermann, Max 08154711">
+                        <name>Mustermann</name><surname>Max</surname>
+                        <gender>male</gender>
+                        <id>08154711</id><issuer>iCom Server 4343</issuer>
+                </patient>
+        </measurement>
+
+</function>
+
+</message>
+</reply>

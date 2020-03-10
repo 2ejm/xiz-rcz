@@ -1,0 +1,10 @@
+<function fid="setConf">
+   <parameter id="serial" value="enabled"/>
+   <parameter id="serialBaudrate" value="115200" unit="Bd"/>
+   <parameter id="serialNdataBits" value="8"/>
+   <parameter id="serialNstopBits" value="1"/>
+   <parameter id="serialParity" value="None"/>
+   <parameter id="serialHandshaking" value="None"/>
+   <parameter id="serialFormat" value="v1.6"/>
+   <parameter id="serialProtocol" value="Listener"/>
+</function>

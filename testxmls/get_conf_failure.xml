@@ -1,0 +1,3 @@
+<!-- <function fid="getConf" item="format" resource="lanFolder"/> -->
+<!-- <function fid="getConf" item="parameter" id="date"/> -->
+<function fid="getConf" item="resource" id="lanPrinter"/>

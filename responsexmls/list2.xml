@@ -1,0 +1,6 @@
+<reply status="200">
+<message>
+<function fid="getFilesList" />
+
+</message>
+</reply>

@@ -1,0 +1,508 @@
+libzix (1.0.10-21) jessie; urgency=medium
+
+  * Bugfix for #88 and 89
+  * Buglists: 20190528
+  * Samba extra mount option feature
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Mon, 15 Jul 2019 11:44:48 +0200
+
+libzix (1.0.10-20) jessie; urgency=medium
+
+  * Bugfix for #90 and 91
+  * Buglists: 20190528
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Wed, 19 Jun 2019 10:22:09 +0200
+
+libzix (1.0.10-19) jessie; urgency=medium
+
+  * Bugfix for #31, 83, 84, 86, 97, 98, 102, and 103
+  * Buglists: 20190528
+  * DHCP Hostname Feature
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Fri, 07 Jun 2019 08:18:24 +0200
+
+libzix (1.0.10-18) jessie; urgency=medium
+
+  * Bugfix for #95 and 99
+  * Buglists: 20190403
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Wed, 03 Apr 2019 16:38:40 +0200
+
+libzix (1.0.10-17) jessie; urgency=medium
+
+  * Bugfix for #87, 92, 96 and 68 (Reopened)
+  * Buglists: 20190327
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Mon, 01 Apr 2019 12:12:08 +0200
+
+libzix (1.0.10-16) jessie; urgency=medium
+
+  * Bugfix for #94
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Wed, 27 Mar 2019 10:11:32 +0100
+
+libzix (1.0.10-15) jessie; urgency=medium
+
+  * Bugfix for #75 (Deadlock)
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Wed, 13 Mar 2019 10:39:29 +0100
+
+libzix (1.0.10-14) jessie; urgency=medium
+
+  * Bugfix for #52, 69, 71, 75, 76, 77, 80 and 81
+  * Buglists: 20190131
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Thu, 07 Feb 2019 09:14:27 +0100
+
+libzix (1.0.10-13) jessie; urgency=medium
+
+  * Bugfix for #48, 49, 50, 51, 55, 57, 58, 62, 64, 66 and 68
+  * Buglists: 20190131
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Fri, 01 Feb 2019 12:16:40 +0100
+
+libzix (1.0.10-12) jessie; urgency=medium
+
+  * Bugfix for #72
+  * Buglists: 20181121
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Thu, 29 Nov 2018 10:05:58 +0100
+
+libzix (1.0.10-11) jessie; urgency=medium
+
+  * Bugfix for #59
+  * Buglists: 20181018
+
+ -- Martin Kaistra <martin.kaistra@linutronix.de>  Wed, 14 Nov 2018 15:22:43 +0100
+
+libzix (1.0.10-10) jessie; urgency=medium
+
+  * Bugfixes for #47, 60 and usb update trigger vor webservice
+  * Buglists: 20181018
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Tue, 30 Oct 2018 13:56:41 +0100
+
+libzix (1.0.10-9) jessie; urgency=medium
+
+  * Bugfixes for #53 and issues discussed via Email
+  * Buglists: 20181018
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Thu, 25 Oct 2018 11:39:54 +0200
+
+libzix (1.0.10-8) jessie; urgency=medium
+
+  * Bugfixes for #38, 43 and 46
+  * Buglists: 20180928
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Fri, 19 Oct 2018 11:14:53 +0200
+
+libzix (1.0.10-7) jessie; urgency=medium
+
+  * Bugfixes for #39, 44 and 45
+  * Buglists: 20180920
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Mon, 24 Sep 2018 14:09:43 +0200
+
+libzix (1.0.10-6) jessie; urgency=medium
+
+  * Bugfixes for #5, 6, 7, 8, 9
+  * Buglists: 20180606
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Wed, 12 Sep 2018 09:03:38 +0200
+
+libzix (1.0.10-5) jessie; urgency=medium
+
+  * Bugfixes for #28, 30, 11, 19, 21, 37, 33, 13, 14, 18
+  * Buglists: 20180606 and 20180717
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Wed, 29 Aug 2018 08:36:41 +0200
+
+libzix (1.0.10-4) jessie; urgency=medium
+
+  * Bugfixes for #Bug 15, 16, 17, 26, 27 and 32
+  * Buglists: 20180606 and 20180717
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Fri, 17 Aug 2018 10:27:22 +0200
+
+libzix (1.0.10-3) jessie; urgency=medium
+
+  * Potential Bug Fixes for #Bug 41 and 42
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Wed, 08 Aug 2018 12:51:47 +0200
+
+libzix (1.0.10-2) jessie; urgency=medium
+
+  * data-out: removed cdata (patch from Dr. Buehrle)
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Tue, 31 Jul 2018 13:59:30 +0200
+
+libzix (1.0.10-1) jessie; urgency=medium
+
+  * Fixed Bugs: #1, 2, 4, 12, 20, 22, 23, 24, 25, 29, 36 and 40
+  * Buglists: 20180606 and 20180717
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Mon, 30 Jul 2018 12:04:16 +0200
+
+libzix (1.0.9-1) jessie; urgency=medium
+
+  * Implementing sequence ID in serial protocol
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Mon, 04 Jun 2018 14:46:59 +0200
+
+libzix (1.0.8-1) jessie; urgency=medium
+
+  * serial_interface_handler: fix utf-8 problems
+  * serial_interface_handler: fix ACK frame numbers
+  * libzix: reorder network init, so that no DC request is happening there
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Thu, 01 Mar 2018 16:03:19 +0100
+
+libzix (1.0.7-2) jessie; urgency=medium
+
+  * Use defaults2.xml from Mail from 02.11.17
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Mon, 06 Nov 2017 11:11:27 +0100
+
+libzix (1.0.7-1) jessie; urgency=medium
+
+  * Use defaults1.xml from Mail from 02.11.17
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Mon, 06 Nov 2017 09:00:43 +0100
+
+libzix (1.0.6-2) jessie; urgency=medium
+
+  * xml_helpers: refactor element_to_string and kill old maxs implementation
+  * conf_handler: fix getConf item="format" where non recursive nodes shall
+    be returned.
+  * usbserial_interface_handler: dont call element_to_string with format
+    enabled (#138)
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Thu, 26 Oct 2017 15:56:37 +0200
+
+libzix (1.0.6-1) jessie; urgency=medium
+
+  * process_request: set Glib::IO_FLAG_NONBLOCK on stderr and stdout of child
+    (#136)
+  * core_function_update: complete replay of all state variables in DC update
+    (#128)
+  * conf_handler: fix crash in ConfHandler::hoistName() (#137)
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Wed, 25 Oct 2017 20:55:20 +0200
+
+libzix (1.0.5-1) jessie; urgency=medium
+
+  * xml_helpers: use xmlSaveTo in node_to_string and element_to_string now
+    (#132, #133)
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Wed, 25 Oct 2017 10:32:13 +0200
+
+libzix (1.0.4-1) jessie; urgency=medium
+
+  * xml_helpers: stop using xmlNodeDump in node_to_string and
+    element_to_string (#125)
+  * process_request: set raw encoding in stderr and stdout stream (#127)
+  * process_request: do not make stdout_file with 0600, but leave it with 0644
+    (partial #124)
+  * write_file_request: do not create PRIVATE Files (partial #124)
+  * config: make sure "all" is working
+  * webservice: do not stop in Webservice::updateConfig()
+  * libzix: initiate disk usage monitoring
+  * signature_check_request: reinstate sigcheck for STR_ZIXINF_LANWEBSERVICE
+    (#131)
+  * disk_usage_manager: add log rotate timeout
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Fri, 20 Oct 2017 12:59:08 +0200
+
+libzix (1.0.3-3) jessie; urgency=medium
+
+  * core_function_procedure: use _gui_param_number in first guiIO query also
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Fri, 13 Oct 2017 13:35:11 +0200
+
+libzix (1.0.3-2) jessie; urgency=medium
+
+  * core_function_procedure: fix problems with _gui_param_number computation
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Fri, 13 Oct 2017 11:59:08 +0200
+
+libzix (1.0.3-1) jessie; urgency=medium
+
+  * core_function_data_out: implement feature dest="localPrinter"
+  * core_function_set_conf: implement node="..." delete="yes" feature
+  * ntp_monitor: remove time sync between DC and SIC (only upon boot time is
+    fetched from DC)
+  * core_function_data_out: remove generated file, when postprocessor can not
+    be run.
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Thu, 12 Oct 2017 16:09:37 +0200
+
+libzix (1.0.2-1) jessie; urgency=medium
+
+  * usbserial_interface_handler: dont let g_convert throw exceptions (Fixes
+    #118)
+  * Adjust accessibility Checks for LANWEBSERVER setConf
+  * no more signature checks for LANWEBSERVICE and LANWEBSERVER
+  * refactor StatusVariables upon boot, so that statusSIC "ready" comes last
+  * xml_result: fix xml_result::to_dest () (Fixes #115 and #122)
+  * xml_function: make load_src () _file_parser a member variable (Fixes #123)
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Wed, 11 Oct 2017 14:09:04 +0200
+
+libzix (1.0.1-2) jessie; urgency=medium
+
+  * xml_result: also obey the _redirected flag for _raw_results
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Mon, 09 Oct 2017 16:05:55 +0200
+
+libzix (1.0.1-1) jessie; urgency=medium
+
+  * xml_result: fix crash in XmlResult::to_dest (#115)
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Mon, 09 Oct 2017 11:55:49 +0200
+
+libzix (1.0.0-1) jessie; urgency=medium
+
+  * core_function_update: verify DC update signature
+  * core_function_wrap_dc: dont use timeout in guiIO forwarded calls
+  * ntp_monitor: implement ntp handling
+  * state_variables: improved implementation of status
+  * conf_handler: passwords are now crypted on disk
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Tue, 05 Sep 2017 11:19:00 +0200
+
+libzix (0.0.17-6) jessie; urgency=medium
+
+  * core_function_procedure: fix missing guiIO close upon reboot
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Fri, 25 Aug 2017 11:29:24 +0200
+
+libzix (0.0.17-5) jessie; urgency=medium
+
+  * interface_handler: add connection error handling code
+  * usbserial_interface_handler: add error handling
+  * core_function_update: handle the connection error, when DC reboots
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Thu, 24 Aug 2017 23:46:45 +0200
+
+libzix (0.0.17-4) jessie; urgency=medium
+
+  * usbserial_interface_handler: catch exceptions on send path
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Thu, 24 Aug 2017 14:18:45 +0200
+
+libzix (0.0.17-3) jessie; urgency=medium
+
+  * usbserial_interface_handler: set c_cc[VMIN] to 0
+  * libzix::init: add glib default log function, to capture glib messages
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Thu, 24 Aug 2017 12:07:45 +0200
+
+libzix (0.0.17-2) jessie; urgency=medium
+
+  * usbserial_interface_handler: make rx path more robust
+  * usbserial_interface_handler: also subscribe for error conditions
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Wed, 23 Aug 2017 16:41:38 +0200
+
+libzix (0.0.17-1) jessie; urgency=medium
+
+  * network_config: make sure that udhcpc runs in background
+  * network_config: remove sleep from static ethernet config
+  * network_config: setup ethtool via interfaces
+  * core_function_procedure: call shutdown procedure, when procedure ends
+    directly after reboot
+  * core_function_update: increase DC reboot timeout to 20s
+  * usbserial_interface_handler: fix reset_connection ()
+  * conf_handler: properly call fsync() on save() (fixes fallbacks to
+    default.xml)
+  * usbserial_interface_handler: increase USBSERIAL_RECONNECT_TIMEOUT to 20s
+  * usbserial_interface_handler: improved reset handling with _online flag
+  * core_function_procedure: reset DC gui after fid="update" type="DC*"
+  * implemented proper handling of task ids, for requests, and queries.
+  * query_client_serial: implement timeouts on the request level
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Tue, 22 Aug 2017 23:01:31 +0200
+
+libzix (0.0.16-4) jessie; urgency=medium
+
+  * core_function_procedure: _func_param_number was inited off by one
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Thu, 17 Aug 2017 02:01:47 +0200
+
+libzix (0.0.16-3) jessie; urgency=medium
+
+  * xml_result: do not mess with message string when expanding to xml
+  * core_function_procedure: correctly note the current step
+  * procedure_step_handler: small rework + debugging of get_current_proc_step ()
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Wed, 16 Aug 2017 23:36:24 +0200
+
+libzix (0.0.16-2) jessie; urgency=medium
+
+  * file_interface_connection: catch exception and log, when dst file doesnt exist
+  * core_function_procedure: proper guiIO steps even when restart
+  * core_function_procedure: handle create_call () errors
+  * remove network wait workaround
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Wed, 16 Aug 2017 21:17:48 +0200
+
+libzix (0.0.16-1) jessie; urgency=medium
+
+  * status handling
+  * lan socket monitor
+  * rework usbserial RX path
+  * dataOut: fix conf signature generation hmac value
+  * core_function_update: add support for a lan update
+  * bypass signature check in procedure steps
+  * network_config is readout every 10 seconds now (#57)
+  * most printf location changed to PRINT_DEBUG (#48)
+  * fix #85 redirection
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Wed, 16 Aug 2017 18:08:36 +0200
+
+libzix (0.0.15-1) jessie; urgency=medium
+
+  * usbserial_interface_handler: increase reconnect timeout to 10 seconds
+  * more debug statements
+  * core_function_get_measurement: upon postprocessor error remove the generated file
+  * xml_function: handle dest parameter even when src redirection is in place (#86)
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Fri, 04 Aug 2017 15:22:33 +0200
+
+libzix (0.0.14-1) jessie; urgency=medium
+
+  * samba_mounter: make use of lanFolderPassword parameter (#70)
+  * defaults.xml: update to version that i have gotten from zeiss (20170803)
+  * conf_handler: when samba folder is not mounted, we issue SambaMounter::mount ()
+  * lan_watchdog: dont spam log when watchdog is deactivated
+  * samba_mounter: make mount() and umount() public
+  * watchdogs: refactor Watchdog () Constructor and remove serialnumber, instrumen
+  * conf_handler: add getBoolParameter () method
+  * log_file_entry: use xml_escape () for msg (#83)
+  * xml_helpers: add xml_escape function
+  * process_request: dont log with program name as theme but with "process" (#82)
+  * monitor_manager: log using theme "monitor" instead of "Monitor alarm" (#82)
+  * logging: use source="SIC" and them="Audit" for internal debug statements (#81)
+  * core_function_data_out: when postprocessor returns error, delete genrated_file (#80)
+  * network_config: add roomIdentifier field
+  * network_config: remove occurences of deviceName (#107)
+  * network_config: fix parameter name versionSic -> versionSIC (#107)
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Thu, 03 Aug 2017 17:39:57 +0200
+
+libzix (0.0.13-1) jessie; urgency=medium
+
+  * fix empty forwarded xml Requests to DC from procedure
+  * core_function_update: after DC has bootet, we wait for 10 seconds,
+    before we submit the setParameter DCQuery
+  * core_function_update: evaluate return value of queries, and stop,
+    when the query goes wrong.
+  * core_function_update: on sic update call setParameter sicStatus=restart
+  * core_function_procedure: stop procedure execution upon failure
+  * serial_interface_handler: init sicTaskId to 1 (#105)
+  * usbserial_interface_handler: start with tid=1 for sic (#105)
+  * core_function_wrap_dc: add some debug prints
+  * query_client_serial: delay connection to response_ready to execute ()
+  * usbserial_interface_handler: add some debugging to connection reset
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Wed, 02 Aug 2017 11:59:04 +0200
+
+libzix (0.0.12-1) jessie; urgency=medium
+
+  * add code to rest usbserial DC connection
+  * fix procedure persistency
+  * fix wrapped DC call output redirection
+  * usbserial device is not /dev/usbserial (use proper udev rule)
+  * use defaults.xml from zeiss
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Mon, 31 Jul 2017 17:47:36 +0200
+
+libzix (0.0.11-1) jessie; urgency=medium
+
+  * switch update function to transfer partition
+  * switch procedure state to transfer partition
+  * update function does not return success, but waits for reboot
+  * procedure execution incorporates result from transfer partition
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Fri, 28 Jul 2017 16:46:46 +0200
+
+libzix (0.0.10-1) jessie; urgency=medium
+
+  * set macAddress parameter when reading network config (part of #57)
+  * implement libzix part of new dataIn Specification (#71)
+  * revert commit which fixed #102, because the old behaviour was correct.
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Thu, 27 Jul 2017 19:35:23 +0200
+
+libzix (0.0.9-1) jessie; urgency=medium
+
+  * fix usb_watchdog (should fix #91, #59, #39, #38)
+  * fix setConf with empty value (#100)
+  * change update value for setFile called from update for DC (#102)
+  * many additional debugging log statements
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Wed, 26 Jul 2017 17:32:35 +0200
+
+libzix (0.0.8-2) jessie; urgency=medium
+
+  * core_function_update: fix update.xml generation
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Tue, 25 Jul 2017 19:17:12 +0200
+
+libzix (0.0.8-1) jessie; urgency=medium
+
+  * core_function_update: reworked the whole update xml evaluation code (#97)
+  * defaults.xml: remove all occurences of backslash from paths
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Tue, 25 Jul 2017 16:53:17 +0200
+
+libzix (0.0.7-1) jessie; urgency=medium
+
+  * config_serial_interface_handler: obey even or odd parity (#61)
+  * config_serial_interface_handler: set MARK parity, when parity is active
+    (#61)
+  * config_serial_interface_handler: obey Handshaking settings (#62)
+  * set_conf: allow empty value (#100)
+  * interface_handlers: set timeout to 120 secs (#98)
+  * xml_query_set_file: use file tag (#95)
+  * set_file: properly forward update parameter (#94)
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Mon, 24 Jul 2017 19:12:25 +0200
+
+libzix (0.0.6-1) jessie; urgency=medium
+
+  * Fix buffering Problems with usbserial
+  * Fix #59 by using a hmac / sha1 signature based on macAddress
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Fri, 21 Jul 2017 15:58:49 +0200
+
+libzix (0.0.5-1) jessie; urgency=medium
+
+  * Fix serial rs422 frame numbers starts at 1
+  * Fix usb serial size heder to proper bytes value
+
+ -- Torben Hohn <torben.hohn@linutronix.de>  Thu, 20 Jul 2017 17:56:25 +0200
+
+libzix (0.0.4-1) jessie; urgency=medium
+
+  * Bug-Fix-Release 200170719
+
+ -- Maximilian Seesslen <maximilian.seesslen@linutronix.de>  Wed, 19 Jul 2017 16:47:57 +0200
+
+libzix (0.0.3-1) jessie; urgency=medium
+
+  * Bug-Fix-Release 200170608
+
+ -- Maximilian Seesslen <maximilian.seesslen@linutronix.de>  Thu, 08 Jun 2017 12:01:38 +0200
+
+libzix (0.0.2-1) jessie; urgency=medium
+
+  * fixed issues with serial interface
+
+ -- Maximilian Seesslen <maximilian.seesslen@linutronix.de>  Thu, 06 Apr 2017 12:29:24 +0200
+
+libzix (0.0.1-1) jessie; urgency=low
+
+  * Initial release
+
+ -- Maximilian Seesslen <maximilian.seesslen@linutronix.de>  Tue, 12 Jul 2016 17:24:45 +0200

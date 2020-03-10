@@ -1,0 +1,17 @@
+Source: libzix
+Section: devel
+Priority: optional
+Maintainer: Maximilian Seesslen <maximilian.seesslen@linutronix.de>
+Build-Depends: debhelper (>= 9), cmake, doxygen, libglibmm-2.4-dev, libxml++2.6-dev
+Standards-Version: 3.9.5
+Homepage: www.linutronix.de
+#Vcs-Git: git://anonscm.debian.org/collab-maint/i2c-io.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/i2c-io.git;a=summary
+
+Package: libzix
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libglibmm-2.4-1c2a, libxml++2.6-2, libstdc++6
+Description: libzix deamons and libraries
+ Software for Zeiss device controller
+
+#---fin-----------------------------------------------------------------------

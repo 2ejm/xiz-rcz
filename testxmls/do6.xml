@@ -1,0 +1,6 @@
+<function fid="dataOut" type="conf" dest="lanFolder">
+  <calibration>...</calibration>
+  <factoryDefaults>...</factoryDefaults>
+  <profiles>...</profiles>
+  <templates>...</templates>
+</function>

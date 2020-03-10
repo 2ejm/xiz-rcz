@@ -1,0 +1,7 @@
+<function fid="setConf">
+   <parameter id="debug" value="enabled"/>
+   <parameter id="debugBaudrate" value="115200" unit="Bd"/>
+   <parameter id="debugNdataBits" value="8"/>
+   <parameter id="debugNstopBits" value="1"/>
+   <parameter id="debugParity" value="None"/>
+</function>

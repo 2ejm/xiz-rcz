@@ -1,0 +1,5 @@
+<function fid="setConf">
+    <parameter id="lanWebservice" value="enabled"/>
+    <parameter id="lanFolderShare" value="\\dfszorg:445\VISUREF150"/>
+    <parameter id="lanFolderUser" value="RDxDevice"/>
+</function>

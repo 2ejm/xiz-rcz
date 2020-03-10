@@ -1,0 +1,5 @@
+<function fid="setConf" mode="reset">
+    <resource id="USB:folder">
+        <parameter id="status" value="DEACTIVATED" />
+    </resource>
+</function>

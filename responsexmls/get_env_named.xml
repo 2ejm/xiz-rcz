@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<reply status="200">
+<resource id="USB:folder">
+    
+    <parameter id="status" unit="" value="DEACTIVATED"/>
+    <parameter id="size" unit="" value="DEACTIVATED"/>
+  </resource>
+</reply>

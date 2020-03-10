@@ -1,0 +1,5 @@
+<function fid="setConf">
+   <parameter id="lanWebservice" value="disabled"/>
+   <parameter id="lanWebservicePort" value="8080"/>
+   <parameter id="lanWebserviceUser" value="cznet\mogbh"/>
+</function>

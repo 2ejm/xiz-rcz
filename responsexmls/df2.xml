@@ -1,0 +1,3 @@
+<reply status="404">
+<message>Could not flag measurement non_existent for deletion</message>
+</reply>

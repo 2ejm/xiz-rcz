@@ -1,0 +1,4 @@
+<function fid="setConf">
+   <parameter id="serialBaudrate" unit="Bd" value="115200" />
+   <parameter id="serialStatus" value="ACTIVATED" />
+</function>

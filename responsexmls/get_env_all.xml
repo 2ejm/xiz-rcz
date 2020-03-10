@@ -1,0 +1,63 @@
+<reply status="200">
+<resource id="general">
+    
+    <parameter id="serialnumber" unit="" value="9713201888"/>
+  </resource><resource id="USB:folder">
+    
+    <parameter id="status" unit="" value="DEACTIVATED"/>
+    <parameter id="size" unit="" value="DEACTIVATED"/>
+  </resource><resource id="COM1">
+    
+    <parameter id="status" unit="" value="ACTIVATED"/>
+    <parameter id="baudrate" unit="Bd" value="115200"/>
+  </resource><resource id="ZIX">
+
+    
+
+    <postprocessor id="XML2PDF" type="mixed" code="xml2pdf.pl">
+      
+      <option id="standard">
+        
+        <name language="English" default="1">StandardStandard</name>
+        <name language="Spanish">EstándarEstándar</name>
+        <name language="Portoguese">PadrãoPadrão</name>
+      </option>
+      <option id="enhanced">
+        
+        <name language="English" default="1">EnhancedEnhanced</name>
+        <name language="German">ErweitertErweitert</name>
+      </option>
+    </postprocessor>
+
+    <interface id="LAN:printer">
+      
+      <postprocessor id="XML2PDF"/>
+    </interface>
+
+    <interface id="LAN:folder">
+      
+      <postprocessor id="XML2PDF"/>
+      <postprocessor id="XML2TXT"/>
+      <postprocessor id="XML2XML"/>
+    </interface>
+
+    <database id="icomMobile" code="dbIcomMobile.pl" authorization="yes">
+      
+      <host value="192.168.100.98:80"/>
+    </database>
+
+    <database id="FORUM" code="dbForum.pl">
+      
+      <host value="192.168.100.98:80"/>
+      <user value="zomro"/>
+      <password value="08154711"/>
+    </database>
+
+    <directory>
+      
+      <measurements value="measurements"/>
+      <monitor value="/usr/local/zix/monitor"/>
+    </directory>
+
+  <parameter id="papagai" unit="color" value="red"/></resource><resource id="COM2"><parameter id="palimpalim" unit="" value=""/><parameter id="baudrate" unit="" value="115200"/><parameter id="" unit="" value="115200"/></resource>
+</reply>

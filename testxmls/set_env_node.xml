@@ -1,0 +1,1 @@
+<function fid="setConf" node=".//resource[@id='lanFolder']/output[@id='3' and @type='measurement']/path" value="/global/backup_2" />

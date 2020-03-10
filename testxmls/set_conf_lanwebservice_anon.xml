@@ -1,0 +1,5 @@
+<function fid="setConf">
+   <parameter id="lanWebservice" value="enabled"/>
+   <parameter id="lanWebservicePort" value="8080"/>
+   <parameter id="lanWebserviceUser" value="anon"/>
+</function>
